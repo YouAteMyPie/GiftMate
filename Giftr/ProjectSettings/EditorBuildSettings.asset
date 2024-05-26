@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/CalendarViewScene.unity
+    guid: 76f5883aa782d411695f7ea39b5cd7ea
+  - enabled: 1
+    path: Assets/Scenes/StoreViewScene.unity
+    guid: 37c477a386f404b2997a84bbed8a3ca3
+  - enabled: 1
     path: Assets/Scenes/ProfilerViewScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1

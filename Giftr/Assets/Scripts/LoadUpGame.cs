@@ -17,7 +17,17 @@ public class LoadUpGame : MonoBehaviour
         
     }
 
-    public void LoadUpScene()
+    public void LoadUpProfilerView()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void LoadUpStoresView()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void LoadUpCalendarView()
     {
         SceneManager.LoadScene(0);
     }
