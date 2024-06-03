@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
-    public Button profilerViewButton;
-    public Button storeViewButton;
-    public Button calendarViewButton;
+    //public Button profilerViewButton;
+    //public Button storeViewButton;
+    //public Button calendarViewButton;
 
     private static GameManager instance;
     public static GameManager Instance

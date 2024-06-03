@@ -17,19 +17,44 @@ public class LoadUpGame : MonoBehaviour
         
     }
 
-    public void LoadUpProfilerView()
+    public void LoadWrongScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(8);
     }
 
-    public void LoadUpStoresView()
+    public void LoadVictoryScene()
+    {
+        SceneManager.LoadScene(7);
+    }
+
+    public void LoadUpQuestion1()
     {
         SceneManager.LoadScene(1);
     }
 
-    public void LoadUpCalendarView()
+    public void LoadUpQuestion2()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
+    }
+
+    public void LoadUpQuestion3()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void LoadUpQuestion4()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void LoadUpQuestion5()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void LoadUpQuestion6()
+    {
+        SceneManager.LoadScene(6);
     }
 
 }
